@@ -12,7 +12,7 @@ class Person
 	end
 
 	def doctor
-	"Dr. #{@last_name}"
+	"Dr. " + fullname
 	end
 
 	def lawyer
@@ -20,3 +20,14 @@ class Person
 	end
 
 end
+
+
+
+ali = Person.new('ali', 'yazdani', 'M')
+ali.fullname
+
+
+
+
+tom = Person.new("tom", "parker", "male")
+tom.fullname
